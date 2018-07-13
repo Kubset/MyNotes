@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyNotes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="scripts.js" async ></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-light bg-secondary">
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-sticky-note"></i>
+            MyNotes 
+        </a>
+        <a class="navbar-brand" onclick="newWindow()">
+            Add new Note
+            <i class="fas fa-plus-circle"></i>
+        </a>
+    </nav>
+
+    <div class = "d-flex flex-wrap" id="main-content">
+        <div class="card note">
+            <div class="card-header bg-secondary">
+                <textarea class="bg-secondary" row="1" >Press to add header</textarea>
+            </div>
+            <div class="card-body bg-light">
+                <textarea class="bg-light" row="1">Press to add body</textarea>
+                <i class="fas fa-trash delete-card"></i>
+
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
