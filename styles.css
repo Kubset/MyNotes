@@ -1,0 +1,20 @@
+.note{
+    width: 300px;
+    margin: 15px;
+    
+}
+::placeholder{
+    color: black;
+}
+
+.card-header {
+    min-height: 80px;
+}
+
+textarea {
+    overflow:hidden;
+    border: none;
+    resize: none;
+    height: 30px;
+    width: 250px;
+}
